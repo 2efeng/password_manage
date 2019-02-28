@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:password_manage/view/PassCodeScreen.dart';
+import 'package:password_manage/view/Group.dart';
 
 void main() => runApp(new MyApp());
 
@@ -7,11 +7,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Password',
       theme: new ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.grey,
       ),
-      home: new PassCodeScreen(),
+      home: new Group(),
     );
   }
 }
+ 
