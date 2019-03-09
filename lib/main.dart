@@ -7,7 +7,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Password',
       theme: new ThemeData(
         primarySwatch: Colors.grey,
       ),
@@ -15,4 +14,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
- 
